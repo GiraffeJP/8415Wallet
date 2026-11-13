@@ -1,0 +1,106 @@
+{
+  "artifact": "8415wallet-v2-production-cede922dc36f183dd2d309a6580126a976b54ca7.tar.gz",
+  "sha256": "fed59bd746b8ba46eec6cae749fe365077f29c953baf523c415beaa3f0dd159c",
+  "receiptSha256": "f279a554150b48ad882e818df40aca7b710fa531117ab54f20220817e0997e2a",
+  "schema": "8415wallet-public-v2-production/1",
+  "profile": "v2",
+  "product": "8415wallet",
+  "status": "PRODUCTION_DISTRIBUTION_SIMULATION_VALIDATED",
+  "source": {
+    "commit": "f3e34404825d1c6b9f8682d649b6b86dc4802a88",
+    "tree": "cede922dc36f183dd2d309a6580126a976b54ca7",
+    "dirty": false
+  },
+  "production": {
+    "receiptSha256": "f279a554150b48ad882e818df40aca7b710fa531117ab54f20220817e0997e2a",
+    "contractDigest": "47e9224a1ead7bcb6e99e5fe9289fb5a94e10532192323bf27bc3ddaa46930dc",
+    "verdict": "ACCEPTED_SIMULATION"
+  },
+  "artifacts": {
+    "v2": {
+      "artifact": "8415wallet-public-v2-production-cede922dc36f183dd2d309a6580126a976b54ca7.tar.gz",
+      "sha256": "fefc1c99be4873a71f295e69657889831f5e65a4519d50ed810dd36262207e10"
+    },
+    "auth": {
+      "artifact": "8415wallet-auth-v2-cede922dc36f183dd2d309a6580126a976b54ca7.tar.gz",
+      "sha256": "06b51e086624731f205de37bb0d572e2412dc05e8259a586bba83eb806a1856e"
+    }
+  },
+  "documents": {
+    "schema": "8415wallet-v2-document-contract/1",
+    "canonical": {
+      "path": "docs/ERC-8415-Wallet-PRD.md",
+      "sha256": "c256e57dd1ee54ecab22db82b092bea4b5b3feca78076bc9ccacddd4ea3427b3",
+      "bytes": 126930,
+      "gitBlobSHA1": "9bbe6ea90b7fd8157a73e5932f6bba7d57ba9d06",
+      "revision": "2026-11-12-password-rule-8-two-classes",
+      "releaseLabel": "Beta 2.0"
+    },
+    "documents": [
+      {
+        "path": "docs/V2-PRD-APPLICABILITY.md",
+        "bytes": 104922,
+        "sha256": "07d1e060b5532c4f9c39655254ce46dbd48a3fe6558fe29a137a747bc5e5ab39"
+      },
+      {
+        "path": "docs/V2-DOCUMENT-CONTRACT.json",
+        "bytes": 18749,
+        "sha256": "2ba223be04ac20a86e0fcddcdf7d08ccaa74358fc1bd476145bf10aefaec422b"
+      },
+      {
+        "path": "docs/V2-DELIVERY.md",
+        "bytes": 2498,
+        "sha256": "940f8e070e224c4f907166c38489af49ae5b1845806dcfcd4f22c2ccdfb3e1c9"
+      },
+      {
+        "path": "docs/V2-PRD-COVERAGE.md",
+        "bytes": 5065,
+        "sha256": "3390b21dea31f2c14e9874fec4cd3f564a1b3528cb295e9d916b4e015a355e5b"
+      },
+      {
+        "path": "docs/V2-INSTALL.md",
+        "bytes": 6130,
+        "sha256": "16a2f0359a26b9be82edcc243ffe37aa238551f2400396e700ede9339c642dfe"
+      }
+    ]
+  },
+  "files": {
+    "deploy/dapp-v2/install.mjs": "2922ca77c525f9669d69a81cbf541430b33a53ee71a3e58f63c06eb7a7252907",
+    "deploy/tenant-profile-policy.mjs": "96af27cedd989cc7e9f51894a21bdc3b17664559f4a37a7bf8b1ce52da884ea3",
+    "scripts/package/verify-v2-delivery.mjs": "683e836bde843c03ea6b27b1c983147014bf07320ed91e1fc04d2573687b2cd9",
+    "scripts/package/archive-v2.mjs": "95b3471a3381ec2d637b9f161fbbb4ce39239fbc1b757a0d96108533f0a70dae",
+    "scripts/package/verify-auth-v2.mjs": "fd638841611bc093a30346e834a0eb0c6c6ae657753e49588c13fd53d7e709ed",
+    "scripts/package/v2-document-contract.mjs": "9fb005156123e075e085f40ff5c2857647f50bb9c90a0ddea2e758e4f2f33724",
+    "scripts/package/v2-nested-archive.mjs": "6eb24c2cbd91b76e51eafae986899ea93892cea09bdea727c5d0cc6cf0bda132",
+    "web/image-policy.mjs": "a777acdc54150059b869b8cc1bbb64b473ea85efbfc77478c1d9ddcc42a20528",
+    "web/release-profile-v2.mjs": "0b39cc2cb5db8070ef09037ad3bb83c4b9569d7467c082191a76f4cf0774a0d3",
+    "web/tenant-password-routing.mjs": "e2636cdd57664cca1b0c0344c4b75a15d13c18aee7b6027e4938c71f2bb73afa",
+    "web/wallet-entry.mjs": "93609179d6edf05e08fa3ee13a2d484c074ac88bda24fc8380c31f52f7841b3b",
+    "web/tenant-path.mjs": "7c4369b776c588abd914e6b7ffcfbe30d6d8db878523b4a2d0dc55f1e0e7d59d",
+    "config/releases/v2.json": "c3d8ad7b5af411b668421767bd676ded7cb754a96811d2b67239eb24ecc6c661",
+    "LICENSE": "0912dea85fa6166408d2413856be879e6d1a1e72a15d228749005e772446076c",
+    "THIRD_PARTY_NOTICES.md": "8e1b73b0d38271d6d65caf6a3be29fef7b206776e0df1bb924599d194d5461d2",
+    "LICENSES/CC0-1.0.txt": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "scripts/package/verify-v2-production.mjs": "ca3fb236f08623cfe9ddb59f61072dd397171113ee83ef83bb07447faf536268",
+    "scripts/package/v2-production-documents.mjs": "7cf3d73dc6c34fd6d28a081518b6a4650bba5d71558ca87ed9c007ebe4150190",
+    "scripts/package/v2-public-receipt.mjs": "e8c433fadcd3c56958f1ad9689289330044ae68ec39119fb764d6ced9dc15726",
+    "scripts/package/v2-production-isolation.mjs": "4ba2718763bd1f7af1559991fc813c5298f5d718749fd8933febd374320c9b66",
+    "docs/V2-PRD-APPLICABILITY.md": "07d1e060b5532c4f9c39655254ce46dbd48a3fe6558fe29a137a747bc5e5ab39",
+    "docs/V2-DOCUMENT-CONTRACT.json": "2ba223be04ac20a86e0fcddcdf7d08ccaa74358fc1bd476145bf10aefaec422b",
+    "docs/V2-DELIVERY.md": "940f8e070e224c4f907166c38489af49ae5b1845806dcfcd4f22c2ccdfb3e1c9",
+    "docs/V2-PRD-COVERAGE.md": "3390b21dea31f2c14e9874fec4cd3f564a1b3528cb295e9d916b4e015a355e5b",
+    "docs/V2-INSTALL.md": "16a2f0359a26b9be82edcc243ffe37aa238551f2400396e700ede9339c642dfe",
+    "PRODUCTION.json": "5b4caaffac16ebc5b4b17c2842b22a0026b9152cd682e2e7050f2d793cd94e63",
+    "SIMULATION-RECEIPT.json": "f279a554150b48ad882e818df40aca7b710fa531117ab54f20220817e0997e2a",
+    "README.md": "7743b6e3ba01cd09f6f7379034b3275a95e5bfda08f26cc893ffac4bf6bdf1e1",
+    "PRODUCT.md": "d3a056a2d0472510f80f29299e26ba70583ba287b70b9a134bbeb576a582971b"
+  },
+  "scope": {
+    "installation": "Recipient-supplied authorized configuration only; no service activation.",
+    "v3Included": false,
+    "fullSourceIncluded": false,
+    "credentialsIncluded": false,
+    "nativeAppsIncluded": false,
+    "acceptance": "Controlled Linux simulated validation pinned by public receipt; not security audit, live deployment, real mail/device or on-chain acceptance."
+  }
+}

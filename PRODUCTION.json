@@ -1,0 +1,13 @@
+{
+  "schema": "8415wallet-public-v2-production/1",
+  "status": "PRODUCTION_DISTRIBUTION_SIMULATION_VALIDATED",
+  "source": {
+    "commit": "f3e34404825d1c6b9f8682d649b6b86dc4802a88",
+    "tree": "cede922dc36f183dd2d309a6580126a976b54ca7",
+    "dirty": false
+  },
+  "receiptSha256": "f279a554150b48ad882e818df40aca7b710fa531117ab54f20220817e0997e2a",
+  "contractDigest": "47e9224a1ead7bcb6e99e5fe9289fb5a94e10532192323bf27bc3ddaa46930dc",
+  "verdict": "ACCEPTED_SIMULATION",
+  "maturityLabel": "Beta 2.0"
+}

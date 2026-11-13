@@ -1,0 +1,488 @@
+{
+  "schema": "8415wallet-v2-public-simulation-receipt/1",
+  "source": {
+    "commit": "f3e34404825d1c6b9f8682d649b6b86dc4802a88",
+    "tree": "cede922dc36f183dd2d309a6580126a976b54ca7"
+  },
+  "contract": {
+    "digest": "47e9224a1ead7bcb6e99e5fe9289fb5a94e10532192323bf27bc3ddaa46930dc",
+    "caseCount": 41,
+    "familyCount": 19,
+    "forumCaseCount": 8
+  },
+  "verdict": "ACCEPTED_SIMULATION",
+  "evidenceLevel": "LINUX_SIMULATED_SYNTHETIC_PORTS",
+  "cases": [
+    {
+      "id": "AUTH-01",
+      "family": "AUTH",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "99195a5275d9ad47bfa343de249bc2413d0a0e33b2c9ee28bf1f347d053dd921",
+        "eb791edec0a210177baf2de3b9f33ed92c175c4c120f42a4a0c53e8e4b73c504",
+        "16b62aa439dac193e1b79d404c77614ae79319fd26a2b444ba1fcc57a22fdd3d",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "AUTH-02",
+      "family": "AUTH",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "eb791edec0a210177baf2de3b9f33ed92c175c4c120f42a4a0c53e8e4b73c504",
+        "eeccc2a9806bacd1ec35944d74d2a49252f3a11baf38e6d85deb6cee722f738c",
+        "89464a84bdb1c6e651264ccdf20d94bb5e4c89a09d0f64d454f218f2cd2eb50b",
+        "9c17cc07e18fa572b4e8d9b9348e9da48f49c0081625cd7e788b8b5d00ea83ea"
+      ]
+    },
+    {
+      "id": "AUTH-03",
+      "family": "AUTH",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "eb791edec0a210177baf2de3b9f33ed92c175c4c120f42a4a0c53e8e4b73c504",
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "ROUTES-01",
+      "family": "ROUTES",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "addb796a3839f6e0b84c9c38fd6ed9e4efc6992cfa052607e2858cb732d5a3f4",
+        "47a84d0f0782139202c090e8f715065db4ea26b4479be9e92fa5f89fdb47896a",
+        "16b62aa439dac193e1b79d404c77614ae79319fd26a2b444ba1fcc57a22fdd3d"
+      ]
+    },
+    {
+      "id": "ROUTES-02",
+      "family": "ROUTES",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "47a84d0f0782139202c090e8f715065db4ea26b4479be9e92fa5f89fdb47896a",
+        "cf33cd03fa49912c5a4c1a5a80a8ffeb8485f0eade50da18b345caf2b51b6183",
+        "245a2aa42d5de4fd20aaa7af43186814b1b5cb1b39d20c0e91ccfcd211483d42"
+      ]
+    },
+    {
+      "id": "DEFAULT-01",
+      "family": "INITIAL-ON",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "6598ad59359bb5d56bc29a250bc8304ee0f1161b6a96ed020538ddde9d68d2e7",
+        "b4233afc980602e943f0f1f32bcf78d1ea898722ffbac3c2862e176ca267fe3e"
+      ]
+    },
+    {
+      "id": "DEFAULT-02",
+      "family": "INITIAL-ON",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "0d35502eef54831e54ad1b986c48b3da3244e2e996a2202aac1b272e19d34b68",
+        "b4233afc980602e943f0f1f32bcf78d1ea898722ffbac3c2862e176ca267fe3e",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "SAVE-01",
+      "family": "OWNER-SAVE",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "1b17ef83f830a9d8671d3c49ca85edf72ef55ad00493b8a54097e3def8427c01",
+        "7353919665a95762376000a26d9b6ff4b91da2b16fea7f110e411cb75d2241c5",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "SAVE-02",
+      "family": "OWNER-SAVE",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "25e57e5131b302d192f68542946dfa6f928937cae951d7a6e6f834f7dca3ffcb",
+        "7353919665a95762376000a26d9b6ff4b91da2b16fea7f110e411cb75d2241c5",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "SAVE-03",
+      "family": "OWNER-SAVE",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "1b17ef83f830a9d8671d3c49ca85edf72ef55ad00493b8a54097e3def8427c01",
+        "99195a5275d9ad47bfa343de249bc2413d0a0e33b2c9ee28bf1f347d053dd921",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "FUNDS-01",
+      "family": "FUNDS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "ee5cd906ae8ad54a333d4ee8bdc99928209c6b6422148244285cb5d32bf7780b"
+      ]
+    },
+    {
+      "id": "FUNDS-02",
+      "family": "FUNDS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "0761288f538c34d1de39a058d1ec83fd544441b1a683b226e4af797a66c49bba",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "NFT-01",
+      "family": "NFT",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "0ec6bd024fbfcbfc5149f9cdd452004517864122b63c5e4c1514769d99444626",
+        "c2c0b4ed9b52d49251ef26ec435cc04b708c2889644bf395445e231411cc6311"
+      ]
+    },
+    {
+      "id": "NFT-02",
+      "family": "NFT",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "0ec6bd024fbfcbfc5149f9cdd452004517864122b63c5e4c1514769d99444626",
+        "c2c0b4ed9b52d49251ef26ec435cc04b708c2889644bf395445e231411cc6311"
+      ]
+    },
+    {
+      "id": "MARKET-01",
+      "family": "MARKET",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "ceaf3fd55c6a42fd5e883cc1aa068a8c64e2a5fe0318de0ddee14c97e62b1186",
+        "a9e02baec90e39496dc65f55e42ac66cddf468dedd7c220744d18d64c5af9849"
+      ]
+    },
+    {
+      "id": "MARKET-02",
+      "family": "MARKET",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "a9e02baec90e39496dc65f55e42ac66cddf468dedd7c220744d18d64c5af9849",
+        "b7ed0bfcc0980409acd49397a71798b586cec2ef6aae284eda353d7712774243"
+      ]
+    },
+    {
+      "id": "MARKET-03",
+      "family": "MARKET",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "e7797a304fdccf9f897377ff168059057eab38e57e4f54d702e9cbc9636a4991",
+        "ceaf3fd55c6a42fd5e883cc1aa068a8c64e2a5fe0318de0ddee14c97e62b1186"
+      ]
+    },
+    {
+      "id": "HUMAN-01",
+      "family": "HUMAN-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "df15dbca41145c685eb0332d3a827cc69d3485b582540b1f1e4cf1d1f56a779a"
+      ]
+    },
+    {
+      "id": "HUMAN-02",
+      "family": "HUMAN-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "dd494c77c532e8087c05b492048c14360168e18c7463c3e977086023c9a2d25a",
+        "162ff5c6ca367ade18d9ced003cba8be244e87f236bd9421137b729fdf57c8d5",
+        "7507fe8343e7e115f3c67acc3b435d5a01ec8f3414b3de95e518e3c2770638c2",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "HUMAN-03",
+      "family": "HUMAN-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "dd494c77c532e8087c05b492048c14360168e18c7463c3e977086023c9a2d25a",
+        "a7e2973aeb74152376cae561ea350d117df4b4d3b3ac8b0c0706cf7b8dfa1add",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10"
+      ]
+    },
+    {
+      "id": "AGENT-01",
+      "family": "AGENT-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "450c4084d7050375723ed04e0d45a36f8708a8df21f3c09ac86d914b0d32a6ca"
+      ]
+    },
+    {
+      "id": "AGENT-02",
+      "family": "AGENT-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "4e57658a3772bccd37aa9498eae3e1823498da1707595c89c5243fd3654e79ca",
+        "b4233afc980602e943f0f1f32bcf78d1ea898722ffbac3c2862e176ca267fe3e",
+        "7507fe8343e7e115f3c67acc3b435d5a01ec8f3414b3de95e518e3c2770638c2",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "AGENT-03",
+      "family": "AGENT-OPS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "6cead402d180cb913420dab3c09a9f6465ab585097ff8c34a3420a2a82b050d3",
+        "450c4084d7050375723ed04e0d45a36f8708a8df21f3c09ac86d914b0d32a6ca"
+      ]
+    },
+    {
+      "id": "MC-01",
+      "family": "MULTICHAIN",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10"
+      ]
+    },
+    {
+      "id": "MC-02",
+      "family": "MULTICHAIN",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10"
+      ]
+    },
+    {
+      "id": "MC-03",
+      "family": "MULTICHAIN",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10"
+      ]
+    },
+    {
+      "id": "PROJ-01",
+      "family": "PROJECTION",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2",
+        "5e9cd1da73e3edc67eaa54835014f0a671b0850ddd6086550030d1874360d58b"
+      ]
+    },
+    {
+      "id": "PROJ-02",
+      "family": "PROJECTION",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2",
+        "9815d55cbab2b1651173acec4fda54efb97e944e08b06b03df680be34e73973d"
+      ]
+    },
+    {
+      "id": "HISTORY-01",
+      "family": "HISTORY",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5c02a8cf8917dd97b6608f12ba4206baac93f661fa8ee3bd56ba2c182a5947c8",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2"
+      ]
+    },
+    {
+      "id": "HISTORY-02",
+      "family": "HISTORY",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2"
+      ]
+    },
+    {
+      "id": "PROGRESS-01",
+      "family": "PROGRESS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "a7e2973aeb74152376cae561ea350d117df4b4d3b3ac8b0c0706cf7b8dfa1add",
+        "df15dbca41145c685eb0332d3a827cc69d3485b582540b1f1e4cf1d1f56a779a"
+      ]
+    },
+    {
+      "id": "PROGRESS-02",
+      "family": "PROGRESS",
+      "status": "BOUNDARY_VERIFIED",
+      "disposition": "EXCLUDED_LINKED_BOUNDARY_VERIFIED",
+      "evidenceSha256s": [
+        "5e9cd1da73e3edc67eaa54835014f0a671b0850ddd6086550030d1874360d58b",
+        "7dcb7127cf8dfc1404d8f618ac98ca34f3f8eab54a40dfc01c21526a3b2f59c2"
+      ]
+    },
+    {
+      "id": "PROGRESS-03",
+      "family": "PROGRESS",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "93ce4d34f235242288e1a2b8e000c37812b3f4a61f030a1250d408965a96932a",
+        "17e07beb51d6cd3192e289a689b1b4e6c777b1be8d31ae45f8aad8af0fbbaa98",
+        "ba3e55eab7ad839386bd0cfad40fa0c5648cfe9f317998421f46aad1b148dfee"
+      ]
+    },
+    {
+      "id": "SAFE-01",
+      "family": "SAFETY",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10",
+        "6cead402d180cb913420dab3c09a9f6465ab585097ff8c34a3420a2a82b050d3"
+      ]
+    },
+    {
+      "id": "SAFE-02",
+      "family": "SAFETY",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "4e57658a3772bccd37aa9498eae3e1823498da1707595c89c5243fd3654e79ca",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10",
+        "25e57e5131b302d192f68542946dfa6f928937cae951d7a6e6f834f7dca3ffcb",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "PRIVATE-01",
+      "family": "CONFIDENTIALITY",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "0ec6bd024fbfcbfc5149f9cdd452004517864122b63c5e4c1514769d99444626",
+        "ee5cd906ae8ad54a333d4ee8bdc99928209c6b6422148244285cb5d32bf7780b"
+      ]
+    },
+    {
+      "id": "FORUM-01",
+      "family": "FORUM",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "9815d55cbab2b1651173acec4fda54efb97e944e08b06b03df680be34e73973d",
+        "162ff5c6ca367ade18d9ced003cba8be244e87f236bd9421137b729fdf57c8d5",
+        "4e57658a3772bccd37aa9498eae3e1823498da1707595c89c5243fd3654e79ca",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10",
+        "7507fe8343e7e115f3c67acc3b435d5a01ec8f3414b3de95e518e3c2770638c2",
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2",
+        "b7ed0bfcc0980409acd49397a71798b586cec2ef6aae284eda353d7712774243",
+        "655dd1c96dbf08c6a9c10f7f7209aca88b0572f1b489b484e5831fc609c0c0e9",
+        "eb4da68d22d5d6251ed84bc274da76be33655f92b8c50e88ec5ab2a1974e5bf5",
+        "dd2b94fc07bb7ce04cad1ae56abc6531f0a25ff5ecba65bdd723eb897025001a",
+        "530a846c8d3e879b7beb7ab11481e2d916585b1539824eff0d57570ae174a9dd"
+      ]
+    },
+    {
+      "id": "WEB-01",
+      "family": "WEB-RELEASE",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "2a866c3932a74ecbadffc03e656070614c58271a5073453513c322019f51d158",
+        "a811f52000c1bc329ffbadb6c3e0069a668a81b1a12b46a5dbab37f7e1caf047",
+        "eed0edae5f5a2ffa604de324999f4b4419e9274a2124f2044bb8c40579e30d94"
+      ]
+    },
+    {
+      "id": "WEB-02",
+      "family": "WEB-RELEASE",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "4f63d78f4c63f12a2d05357b1126570f02921e009798666a47edae0d8b94c81b",
+        "a811f52000c1bc329ffbadb6c3e0069a668a81b1a12b46a5dbab37f7e1caf047",
+        "8565097b8265b4f785b8a779da2ee7fadc88b0dc3173d3902a97e54b3ed5003e"
+      ]
+    },
+    {
+      "id": "NATIVE-01",
+      "family": "NATIVE-APPS",
+      "status": "BOUNDARY_VERIFIED",
+      "disposition": "LATER_PLATFORM_ROADMAP_BOUNDARY_VERIFIED",
+      "evidenceSha256s": [
+        "a811f52000c1bc329ffbadb6c3e0069a668a81b1a12b46a5dbab37f7e1caf047",
+        "8565097b8265b4f785b8a779da2ee7fadc88b0dc3173d3902a97e54b3ed5003e"
+      ]
+    },
+    {
+      "id": "RBAC-01",
+      "family": "RBAC",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "47a84d0f0782139202c090e8f715065db4ea26b4479be9e92fa5f89fdb47896a"
+      ]
+    }
+  ],
+  "forumCases": [
+    {
+      "id": "FORUM-V2-01",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "9815d55cbab2b1651173acec4fda54efb97e944e08b06b03df680be34e73973d",
+        "162ff5c6ca367ade18d9ced003cba8be244e87f236bd9421137b729fdf57c8d5"
+      ]
+    },
+    {
+      "id": "FORUM-V2-02",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "4e57658a3772bccd37aa9498eae3e1823498da1707595c89c5243fd3654e79ca",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10",
+        "7507fe8343e7e115f3c67acc3b435d5a01ec8f3414b3de95e518e3c2770638c2",
+        "9bcdf2a95eb3a30d03234d33527f3bd805f246083278e429450ab8abd2ccd831"
+      ]
+    },
+    {
+      "id": "FORUM-V2-03",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2"
+      ]
+    },
+    {
+      "id": "FORUM-V2-04",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2",
+        "81e4e7d5c5debd8a54aa86291b418c17cc4d17486b42835d2101573232ed0c10"
+      ]
+    },
+    {
+      "id": "FORUM-V2-05",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "b7ed0bfcc0980409acd49397a71798b586cec2ef6aae284eda353d7712774243"
+      ]
+    },
+    {
+      "id": "FORUM-V2-06",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "5e31373f8bca38b22d6fa27a481bfbb19d6a2626c2ee4da0b8dd378a45cd49f5",
+        "fa4ae8d9882329bcba9353005aa9314d3fd9bd3bfef414488d65b3d9af810cf2",
+        "655dd1c96dbf08c6a9c10f7f7209aca88b0572f1b489b484e5831fc609c0c0e9"
+      ]
+    },
+    {
+      "id": "FORUM-V2-07",
+      "status": "BOUNDARY_VERIFIED",
+      "disposition": "CONDITIONAL_WATCHTOWER_KEY_COMPROMISE_ANNEX_NOT_IMPLEMENTED_BOUNDARY_VERIFIED",
+      "evidenceSha256s": [
+        "eb4da68d22d5d6251ed84bc274da76be33655f92b8c50e88ec5ab2a1974e5bf5",
+        "dd2b94fc07bb7ce04cad1ae56abc6531f0a25ff5ecba65bdd723eb897025001a"
+      ]
+    },
+    {
+      "id": "FORUM-V2-08",
+      "status": "PASS_SIMULATED",
+      "evidenceSha256s": [
+        "530a846c8d3e879b7beb7ab11481e2d916585b1539824eff0d57570ae174a9dd"
+      ]
+    }
+  ]
+}
